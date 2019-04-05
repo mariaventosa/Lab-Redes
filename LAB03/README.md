@@ -1,11 +1,11 @@
 # Practica 03 
 utilizando los archivos de la tarea e implementando vagrant se crearon dos servidores: uno con los recursos estaticos(client) y otro que proporciona el microservicio(server)
 
-##SERVER 
+## SERVER 
 vagrant ssh web
 node app.js
 
-##CLIENT
+## CLIENT
 vagrant ssh clock
 cd client
 npm start
