@@ -1,20 +1,20 @@
 go build -o app -v
 
-#cliente
+# cliente
 
-##start: ./main
-##>>conn ip:puerto
+## start: ./main
+## >>conn ip:puerto
 
-##crear container:
-##docker build -t client .
-##docker run -it --rm --name clientN client
+## crear container:
+## docker build -t client .
+## docker run -it --rm --name clientN client
 
 
-#server 
-##start: ./main
+# server 
+## start: ./main
 
-##crear container:
-##docker build -t server .
-##docker run -p 4000:80 server
+## crear container:
+## docker build -t server .
+## docker run -p 4000:80 server
 
 
